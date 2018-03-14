@@ -1,0 +1,75 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"5 configuration_bits.c
+[p x OSC=HSPLL ]
+"6
+[p x FCMEN=ON ]
+"7
+[p x IESO=ON ]
+"10
+[p x PWRTEN=OFF ]
+"11
+[p x BOREN=ON ]
+"15
+[p x WDTEN=OFF ]
+"16
+[p x WDPS=32768 ]
+"17
+[p x WINEN=OFF ]
+"20
+[p x PWMPIN=OFF ]
+"21
+[p x LPOL=HIGH ]
+"22
+[p x HPOL=HIGH ]
+"23
+[p x T1OSCMX=ON ]
+"26
+[p x FLTAMX=RC1 ]
+"27
+[p x SSPMX=RC7 ]
+"28
+[p x PWM4MX=RB5 ]
+"29
+[p x EXCLKMX=RC3 ]
+"30
+[p x MCLRE=ON ]
+"33
+[p x STVREN=ON ]
+"34
+[p x LVP=ON ]
+"37
+[p x CP0=OFF ]
+"38
+[p x CP1=OFF ]
+"39
+[p x CP2=OFF ]
+"40
+[p x CP3=OFF ]
+"43
+[p x CPB=OFF ]
+"44
+[p x CPD=OFF ]
+"47
+[p x WRT0=OFF ]
+"48
+[p x WRT1=OFF ]
+"49
+[p x WRT2=OFF ]
+"50
+[p x WRT3=OFF ]
+"53
+[p x WRTC=OFF ]
+"54
+[p x WRTB=OFF ]
+"55
+[p x WRTD=OFF ]
+"58
+[p x EBTR0=OFF ]
+"59
+[p x EBTR1=OFF ]
+"60
+[p x EBTR2=OFF ]
+"61
+[p x EBTR3=OFF ]
+"64
+[p x EBTRB=OFF ]
