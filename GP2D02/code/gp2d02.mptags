@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+GP2D02_dx	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	58;"	f	line:58	signature:(void)
+GP2D02_sx	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	90;"	f	line:90	signature:(void)
+IRS1	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	55;"	v	line:55
+IRS2	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	55;"	v	line:55
+LCD_CDS_MCL::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	96;"	d	line:96
+LCD_CDS_MCR::0b00000100	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	97;"	d	line:97
+LCD_CDS_MDL::0b00001000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	99;"	d	line:99
+LCD_CDS_MDR::0b00001100	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	100;"	d	line:100
+LCD_CMD::0	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	50;"	d	line:50
+LCD_CMD_ADDRESS::0b10000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	62;"	d	line:62
+LCD_CMD_CDS::0b00010000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	94;"	d	line:94
+LCD_CMD_CLEAR::0b00000001	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	60;"	d	line:60
+LCD_CMD_DC::0b00001000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	79;"	d	line:79
+LCD_CMD_EMS::0b00000100	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	67;"	d	line:67
+LCD_CMD_FS::0b00100000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	106;"	d	line:106
+LCD_CMD_HOME::0b00000010	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	61;"	d	line:61
+LCD_DATA::1	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	51;"	d	line:51
+LCD_DC_CURBLINK_OFF::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	88;"	d	line:88
+LCD_DC_CURBLINK_ON::0b00000001	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	87;"	d	line:87
+LCD_DC_CURSOR_OFF::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	85;"	d	line:85
+LCD_DC_CURSOR_ON::0b00000010	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	84;"	d	line:84
+LCD_DC_DISPLAY_OFF::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	82;"	d	line:82
+LCD_DC_DISPLAY_ON::0b00000100	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	81;"	d	line:81
+LCD_EMS_DECREASE::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	70;"	d	line:70
+LCD_EMS_INCREASE::0b00000010	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	69;"	d	line:69
+LCD_EMS_SHIFT_OFF::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	73;"	d	line:73
+LCD_EMS_SHIFT_ON::0b00000001	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	72;"	d	line:72
+LCD_EN::PORTDbits.RD1	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	47;"	d	line:47
+LCD_FS_DL4::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	109;"	d	line:109
+LCD_FS_DL8::0b00010000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	108;"	d	line:108
+LCD_FS_F5X10::0b00000100	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	114;"	d	line:114
+LCD_FS_F5X7::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	115;"	d	line:115
+LCD_FS_NRM::0b00001000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	111;"	d	line:111
+LCD_FS_NRS::0b00000000	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	112;"	d	line:112
+LCD_PORT_DATA::PORTD	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	48;"	d	line:48
+LCD_RS::PORTDbits.RD0	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	46;"	d	line:46
+LED_GIALLO::PORTEbits.RE1	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	48;"	d	line:48	file:
+LED_ROSSO::PORTEbits.RE2	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	49;"	d	line:49	file:
+LED_VERDE::PORTEbits.RE0	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	47;"	d	line:47	file:
+PULSE_S1::PORTBbits.RB1	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	51;"	d	line:51	file:
+PULSE_S2::PORTBbits.RB3	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	53;"	d	line:53	file:
+TASTO_1::1	D:\Roberto\Progetti\GP2D02\code\terminale.h	45;"	d	line:45
+TASTO_2::2	D:\Roberto\Progetti\GP2D02\code\terminale.h	46;"	d	line:46
+TASTO_3::3	D:\Roberto\Progetti\GP2D02\code\terminale.h	47;"	d	line:47
+TASTO_4::4	D:\Roberto\Progetti\GP2D02\code\terminale.h	48;"	d	line:48
+TASTO_IN::PORTDbits.RD3	D:\Roberto\Progetti\GP2D02\code\terminale.h	43;"	d	line:43
+TASTO_NULL::0	D:\Roberto\Progetti\GP2D02\code\terminale.h	44;"	d	line:44
+TBUZZER::PORTDbits.RD7	D:\Roberto\Progetti\GP2D02\code\terminale.h	42;"	d	line:42
+TCLK754::PORTDbits.RD2	D:\Roberto\Progetti\GP2D02\code\terminale.h	38;"	d	line:38
+TLED_GIALLO::PORTDbits.RD5	D:\Roberto\Progetti\GP2D02\code\terminale.h	40;"	d	line:40
+TLED_ROSSO::PORTDbits.RD6	D:\Roberto\Progetti\GP2D02\code\terminale.h	41;"	d	line:41
+TLED_VERDE::PORTDbits.RD4	D:\Roberto\Progetti\GP2D02\code\terminale.h	39;"	d	line:39
+TRIG_S1::LATBbits.LATB0	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	50;"	d	line:50	file:
+TRIG_S2::LATBbits.LATB2	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	52;"	d	line:52	file:
+buf_msg_1	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	124;"	l	line:124
+buf_msg_2	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	125;"	l	line:125
+buf_tasto1	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	126;"	l	line:126
+cod_tasto	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	127;"	l	line:127
+dato	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	128;"	l	line:128
+gp2_1_read	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	55;"	v	line:55
+gp2_2_read	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	55;"	v	line:55
+i	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	60;"	l	line:60
+i	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	92;"	l	line:92
+indirizzo	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	129;"	l	line:129
+lcd_clear	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	183;"	f	line:183	signature:(void)
+lcd_command	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	150;"	f	line:150	signature:(char c)
+lcd_home	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	194;"	f	line:194	signature:(void)
+lcd_init	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	311;"	f	line:311	signature:(void)
+lcd_pos_cur	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	162;"	f	line:162	signature:(unsigned char row, unsigned char col)
+lcd_put_uchar	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	233;"	f	line:233	signature:(unsigned char numero, unsigned char riga, unsigned char colonna)
+lcd_put_uint	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	267;"	f	line:267	signature:(unsigned int numero, unsigned char riga, unsigned char colonna)
+lcd_putch	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	207;"	f	line:207	signature:(unsigned char c)
+lcd_puts	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	218;"	f	line:218	signature:(const char *s)
+lcd_strobe	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	122;"	f	line:122	signature:(void)
+lcd_write	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	135;"	f	line:135	signature:(unsigned char c)
+led_terminale	D:\Roberto\Progetti\GP2D02\code\terminale.h	68;"	f	line:68	signature:(unsigned char rosso, unsigned char giallo, unsigned char verde)
+main	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	122;"	f	line:122
+modifica	D:\Roberto\Progetti\GP2D02\code\gp2d02.c	127;"	l	line:127
+pos	D:\Roberto\Progetti\GP2D02\code\DMLCD2R.h	164;"	l	line:164
+pulse574	D:\Roberto\Progetti\GP2D02\code\terminale.h	53;"	f	line:53	signature:(void)
+tasto	D:\Roberto\Progetti\GP2D02\code\terminale.h	95;"	l	line:95
+tasto_read	D:\Roberto\Progetti\GP2D02\code\terminale.h	93;"	f	line:93	signature:(void)

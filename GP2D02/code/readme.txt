@@ -1,0 +1,1 @@
+Programma sviluppato su RB2.1 con 18F4620 utilizza le funzioni Microchip per controllare tramite I2C una EEPROM esterna (24LC16). Il programma prevede l'utilizzo della scheda terminale, con display e 4 pulsanti, collegata tramite PORTD.
