@@ -4468,13 +4468,13 @@ typedef uint16_t uintptr_t;
 # 12 "/opt/microchip/xc8/v1.45/include/stdbool.h"
 typedef unsigned char bool;
 
-# 33 "system.h"
+# 34 "system.h"
 void ConfigureOscillator(void);
 
-# 27 "user.h"
+# 29 "user.h"
 void InitApp(void);
 
-# 32 "main.c"
+# 28 "main.c"
 void main(void)
 {
 
@@ -4488,5 +4488,13 @@ InitApp();
 while(1)
 {
 
+LATEbits.LATE2 = 1;
+LATEbits.LATE1 = 1;
+LATEbits.LATE0 = 1;
+_delay((unsigned long)((1000)*(10000000/4000.0)));
+LATEbits.LATE2 = 0;
+LATEbits.LATE1 = 0;
+LATEbits.LATE0 = 0;
+_delay((unsigned long)((1000)*(10000000/4000.0)));
 }
 }

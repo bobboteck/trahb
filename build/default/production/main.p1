@@ -1,9 +1,24 @@
 Version 3.2 HI-TECH Software Intermediate Code
 [p mainexit ]
-"33 system.h
+"34 system.h
 [v _ConfigureOscillator `(v ~T0 @X0 0 ef ]
-"27 user.h
+"29 user.h
 [v _InitApp `(v ~T0 @X0 0 ef ]
+"2204 /opt/microchip/xc8/v1.45/include/pic18f4431.h
+[s S78 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S78 . LATE0 LATE1 LATE2 ]
+"2209
+[s S79 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S79 . LE0 LE1 LE2 ]
+"2203
+[u S77 `S78 1 `S79 1 ]
+[n S77 . . . ]
+"2215
+[v _LATEbits `VS77 ~T0 @X0 0 e@3981 ]
+[v F3305 `(v ~T0 @X0 1 tf1`ul ]
+"164 /opt/microchip/xc8/v1.45/include/pic18.h
+[v __delay `JF3305 ~T0 @X0 0 e ]
+[p i __delay ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
@@ -3184,37 +3199,61 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stdint.h: 210: typedef int16_t intptr_t;
 [; ;stdint.h: 215: typedef uint16_t uintptr_t;
 [; ;stdbool.h: 12: typedef unsigned char bool;
-[; ;system.h: 33: void ConfigureOscillator(void);
-[; ;user.h: 27: void InitApp(void);
+[; ;system.h: 34: void ConfigureOscillator(void);
+[; ;user.h: 29: void InitApp(void);
 [v $root$_main `(v ~T0 @X0 0 e ]
-"32 main.c
+"28 main.c
 [v _main `(v ~T0 @X0 1 ef ]
-"33
+"29
 {
-[; ;main.c: 32: void main(void)
-[; ;main.c: 33: {
+[; ;main.c: 28: void main(void)
+[; ;main.c: 29: {
 [e :U _main ]
 [f ]
-[; ;main.c: 35: ConfigureOscillator();
-"35
+[; ;main.c: 31: ConfigureOscillator();
+"31
 [e ( _ConfigureOscillator ..  ]
-[; ;main.c: 38: InitApp();
-"38
+[; ;main.c: 34: InitApp();
+"34
 [e ( _InitApp ..  ]
-[; ;main.c: 42: while(1)
-"42
+[; ;main.c: 38: while(1)
+"38
 [e :U 311 ]
-[; ;main.c: 43: {
-"43
+[; ;main.c: 39: {
+"39
 {
+[; ;main.c: 41: LATEbits.LATE2 = 1;
+"41
+[e = . . _LATEbits 0 2 -> -> 1 `i `uc ]
+[; ;main.c: 42: LATEbits.LATE1 = 1;
+"42
+[e = . . _LATEbits 0 1 -> -> 1 `i `uc ]
+[; ;main.c: 43: LATEbits.LATE0 = 1;
+"43
+[e = . . _LATEbits 0 0 -> -> 1 `i `uc ]
+[; ;main.c: 44: _delay((unsigned long)((1000)*(10000000/4000.0)));
+"44
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 10000000 `l `d .4000.0 `ul ]
+[; ;main.c: 45: LATEbits.LATE2 = 0;
 "45
+[e = . . _LATEbits 0 2 -> -> 0 `i `uc ]
+[; ;main.c: 46: LATEbits.LATE1 = 0;
+"46
+[e = . . _LATEbits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 47: LATEbits.LATE0 = 0;
+"47
+[e = . . _LATEbits 0 0 -> -> 0 `i `uc ]
+[; ;main.c: 48: _delay((unsigned long)((1000)*(10000000/4000.0)));
+"48
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 10000000 `l `d .4000.0 `ul ]
+"49
 }
 [e :U 310 ]
-"42
+"38
 [e $U 311  ]
 [e :U 312 ]
-[; ;main.c: 45: }
-[; ;main.c: 46: }
-"46
+[; ;main.c: 49: }
+[; ;main.c: 50: }
+"50
 [e :UE 309 ]
 }

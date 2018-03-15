@@ -23,21 +23,84 @@
 [v ___flmul __flmul `(d  1 e 3 0 ]
 "15 /opt/microchip/xc8/v1.45/sources/common/Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"32 /home/bobboteck/MPLABXProjects/trahb.X/main.c
+"28 /home/bobboteck/MPLABXProjects/trahb.X/main.c
 [v _main main `(v  1 e 1 0 ]
 "24 /home/bobboteck/MPLABXProjects/trahb.X/system.c
 [v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
-"28 /home/bobboteck/MPLABXProjects/trahb.X/user.c
+"17 /home/bobboteck/MPLABXProjects/trahb.X/user.c
 [v _InitApp InitApp `(v  1 e 1 0 ]
-"32 /home/bobboteck/MPLABXProjects/trahb.X/main.c
+"363 /opt/microchip/xc8/v1.45/include/pic18f4431.h
+[v _OVDCONS OVDCONS `VEuc  1 e 1 @3946 ]
+"433
+[v _OVDCOND OVDCOND `VEuc  1 e 1 @3947 ]
+"503
+[v _FLTCONFIG FLTCONFIG `VEuc  1 e 1 @3948 ]
+"565
+[v _DTCON DTCON `VEuc  1 e 1 @3949 ]
+"691
+[v _PWMCON1 PWMCON1 `VEuc  1 e 1 @3950 ]
+"757
+[v _PWMCON0 PWMCON0 `VEuc  1 e 1 @3951 ]
+"869
+[v _PDC1H PDC1H `VEuc  1 e 1 @3958 ]
+"876
+[v _PDC1L PDC1L `VEuc  1 e 1 @3959 ]
+"883
+[v _PDC0H PDC0H `VEuc  1 e 1 @3960 ]
+"890
+[v _PDC0L PDC0L `VEuc  1 e 1 @3961 ]
+"897
+[v _PTPERH PTPERH `VEuc  1 e 1 @3962 ]
+"904
+[v _PTPERL PTPERL `VEuc  1 e 1 @3963 ]
+"925
+[v _PTCON1 PTCON1 `VEuc  1 e 1 @3966 ]
+"952
+[v _PTCON0 PTCON0 `VEuc  1 e 1 @3967 ]
+"1034
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"1195
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"1266
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"1532
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S29 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"2215
+[s S33 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S37 . 1 `S29 1 . 1 0 `S33 1 . 1 0 ]
+[v _LATEbits LATEbits `VES37  1 e 1 @3981 ]
+"2271
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"2493
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2715
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2937
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"3159
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"5150
+[v _ANSEL0 ANSEL0 `VEuc  1 e 1 @4024 ]
+"5212
+[v _ANSEL1 ANSEL1 `VEuc  1 e 1 @4025 ]
+"28 /home/bobboteck/MPLABXProjects/trahb.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"46
+"50
 } 0
-"28 /home/bobboteck/MPLABXProjects/trahb.X/user.c
+"17 /home/bobboteck/MPLABXProjects/trahb.X/user.c
 [v _InitApp InitApp `(v  1 e 1 0 ]
 {
-"39
+"19
+[v InitApp@dutycycle dutycycle `ui  1 a 2 0 ]
+"74
 } 0
 "24 /home/bobboteck/MPLABXProjects/trahb.X/system.c
 [v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]

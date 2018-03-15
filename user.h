@@ -16,7 +16,9 @@
 /* User Level #define Macros                                                  */
 /******************************************************************************/
 
-/* TODO Application specific user parameters used in user.c may go here */
+#define LED_ROSSO   LATEbits.LATE2
+#define LED_GIALLO  LATEbits.LATE1
+#define LED_VERDE   LATEbits.LATE0
 
 /******************************************************************************/
 /* User Function Prototypes                                                   */

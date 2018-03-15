@@ -4468,13 +4468,59 @@ typedef uint16_t uintptr_t;
 # 12 "/opt/microchip/xc8/v1.45/include/stdbool.h"
 typedef unsigned char bool;
 
-# 27 "user.h"
+# 29 "user.h"
 void InitApp(void);
 
-# 28 "user.c"
+# 17 "user.c"
 void InitApp(void)
 {
+unsigned int dutycycle = 2000;
 
-# 39
+
+
+PORTA = 0;
+PORTB = 0;
+PORTC = 0;
+PORTD = 0;
+ANSEL0 = 0b00111111;
+ANSEL1 = 0b00000000;
+
+
+
+
+TRISA = 0b00111111;
+
+TRISB = 0b00000000;
+
+# 38
+TRISC = 0b10100000;
+
+TRISD = 0b00000000;
+
+TRISE = 0b11111000;
+
+# 52
+PTCON0 = 0b11110000;
+PTCON1 = 0b10000000;
+
+PTPERH = 0x01;
+PTPERL = 0xff;
+
+
+PWMCON0 = 0b00110000;
+PWMCON1 = 0b11110000;
+DTCON = 0x00;
+
+OVDCOND = 0b00111111;
+OVDCONS = 0b00000000;
+
+FLTCONFIG = 0x00;
+
+PDC0H = dutycycle >> 8;PDC0L = dutycycle;
+PDC1H = dutycycle >> 8;PDC1L = dutycycle;
+
+
+
+
 }
 

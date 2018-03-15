@@ -64,6 +64,3 @@
 #pragma config EBTRB = OFF      // Boot Block Table Read Protection bit (Boot Block (000000-0001FFh) not protected from table reads executed in other blocks)
 
 //#include <xc.h>
-
-
-

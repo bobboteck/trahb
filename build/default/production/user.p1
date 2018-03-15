@@ -1,4 +1,54 @@
 Version 3.2 HI-TECH Software Intermediate Code
+"1034 /opt/microchip/xc8/v1.45/include/pic18f4431.h
+[v _PORTA `Vuc ~T0 @X0 0 e@3968 ]
+"1195
+[v _PORTB `Vuc ~T0 @X0 0 e@3969 ]
+"1266
+[v _PORTC `Vuc ~T0 @X0 0 e@3970 ]
+"1532
+[v _PORTD `Vuc ~T0 @X0 0 e@3971 ]
+"5150
+[v _ANSEL0 `Vuc ~T0 @X0 0 e@4024 ]
+"5212
+[v _ANSEL1 `Vuc ~T0 @X0 0 e@4025 ]
+"2271
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
+"2493
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"2715
+[v _TRISC `Vuc ~T0 @X0 0 e@3988 ]
+"2937
+[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
+"3159
+[v _TRISE `Vuc ~T0 @X0 0 e@3990 ]
+"952
+[v _PTCON0 `Vuc ~T0 @X0 0 e@3967 ]
+"925
+[v _PTCON1 `Vuc ~T0 @X0 0 e@3966 ]
+"897
+[v _PTPERH `Vuc ~T0 @X0 0 e@3962 ]
+"904
+[v _PTPERL `Vuc ~T0 @X0 0 e@3963 ]
+"757
+[v _PWMCON0 `Vuc ~T0 @X0 0 e@3951 ]
+"691
+[v _PWMCON1 `Vuc ~T0 @X0 0 e@3950 ]
+"565
+[v _DTCON `Vuc ~T0 @X0 0 e@3949 ]
+"433
+[v _OVDCOND `Vuc ~T0 @X0 0 e@3947 ]
+"363
+[v _OVDCONS `Vuc ~T0 @X0 0 e@3946 ]
+"503
+[v _FLTCONFIG `Vuc ~T0 @X0 0 e@3948 ]
+"883
+[v _PDC0H `Vuc ~T0 @X0 0 e@3960 ]
+"890
+[v _PDC0L `Vuc ~T0 @X0 0 e@3961 ]
+"869
+[v _PDC1H `Vuc ~T0 @X0 0 e@3958 ]
+"876
+[v _PDC1L `Vuc ~T0 @X0 0 e@3959 ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
@@ -3179,16 +3229,91 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;stdint.h: 210: typedef int16_t intptr_t;
 [; ;stdint.h: 215: typedef uint16_t uintptr_t;
 [; ;stdbool.h: 12: typedef unsigned char bool;
-[; ;user.h: 27: void InitApp(void);
-"28 user.c
+[; ;user.h: 29: void InitApp(void);
+"17 user.c
 [v _InitApp `(v ~T0 @X0 1 ef ]
-"29
+"18
 {
-[; ;user.c: 28: void InitApp(void)
-[; ;user.c: 29: {
+[; ;user.c: 17: void InitApp(void)
+[; ;user.c: 18: {
 [e :U _InitApp ]
 [f ]
-[; ;user.c: 39: }
-"39
+"19
+[v _dutycycle `ui ~T0 @X0 1 a ]
+[; ;user.c: 19: unsigned int dutycycle = 2000;
+[e = _dutycycle -> -> 2000 `i `ui ]
+[; ;user.c: 23: PORTA = 0;
+"23
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;user.c: 24: PORTB = 0;
+"24
+[e = _PORTB -> -> 0 `i `uc ]
+[; ;user.c: 25: PORTC = 0;
+"25
+[e = _PORTC -> -> 0 `i `uc ]
+[; ;user.c: 26: PORTD = 0;
+"26
+[e = _PORTD -> -> 0 `i `uc ]
+[; ;user.c: 27: ANSEL0 = 0b00111111;
+"27
+[e = _ANSEL0 -> -> 63 `i `uc ]
+[; ;user.c: 28: ANSEL1 = 0b00000000;
+"28
+[e = _ANSEL1 -> -> 0 `i `uc ]
+[; ;user.c: 33: TRISA = 0b00111111;
+"33
+[e = _TRISA -> -> 63 `i `uc ]
+[; ;user.c: 35: TRISB = 0b00000000;
+"35
+[e = _TRISB -> -> 0 `i `uc ]
+[; ;user.c: 38: TRISC = 0b10100000;
+"38
+[e = _TRISC -> -> 160 `i `uc ]
+[; ;user.c: 40: TRISD = 0b00000000;
+"40
+[e = _TRISD -> -> 0 `i `uc ]
+[; ;user.c: 42: TRISE = 0b11111000;
+"42
+[e = _TRISE -> -> 248 `i `uc ]
+[; ;user.c: 52: PTCON0 = 0b11110000;
+"52
+[e = _PTCON0 -> -> 240 `i `uc ]
+[; ;user.c: 53: PTCON1 = 0b10000000;
+"53
+[e = _PTCON1 -> -> 128 `i `uc ]
+[; ;user.c: 55: PTPERH = 0x01;
+"55
+[e = _PTPERH -> -> 1 `i `uc ]
+[; ;user.c: 56: PTPERL = 0xff;
+"56
+[e = _PTPERL -> -> 255 `i `uc ]
+[; ;user.c: 59: PWMCON0 = 0b00110000;
+"59
+[e = _PWMCON0 -> -> 48 `i `uc ]
+[; ;user.c: 60: PWMCON1 = 0b11110000;
+"60
+[e = _PWMCON1 -> -> 240 `i `uc ]
+[; ;user.c: 61: DTCON = 0x00;
+"61
+[e = _DTCON -> -> 0 `i `uc ]
+[; ;user.c: 63: OVDCOND = 0b00111111;
+"63
+[e = _OVDCOND -> -> 63 `i `uc ]
+[; ;user.c: 64: OVDCONS = 0b00000000;
+"64
+[e = _OVDCONS -> -> 0 `i `uc ]
+[; ;user.c: 66: FLTCONFIG = 0x00;
+"66
+[e = _FLTCONFIG -> -> 0 `i `uc ]
+[; ;user.c: 68: PDC0H = dutycycle >> 8;PDC0L = dutycycle;
+"68
+[e = _PDC0H -> >> _dutycycle -> 8 `i `uc ]
+[e = _PDC0L -> _dutycycle `uc ]
+[; ;user.c: 69: PDC1H = dutycycle >> 8;PDC1L = dutycycle;
+"69
+[e = _PDC1H -> >> _dutycycle -> 8 `i `uc ]
+[e = _PDC1L -> _dutycycle `uc ]
+[; ;user.c: 74: }
+"74
 [e :UE 309 ]
 }
